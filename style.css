@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+   background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+font-family:'inter';
+   margin: 0px;
+    padding: 0px;
+min-height: 100vh;
+
+
+    
+}
+.card{
+background-color: hsl(0, 0%, 12%);
+margin-top: 40px;
+padding: 40px;
+text-align: center;
+ box-shadow: 0px 4px 10px hsl(75, 94%, 57%);
+margin-bottom: 40px;
+max-width: 1440px;
+border-radius: 10px;
+
+
+}
+.card h1{
+color: hsl(0, 0%, 100%);
+margin-bottom: 0;
+
+}
+
+.image{
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image img{
+    width: 150px;
+    height: 150px;
+  border-radius: 50%;
+    overflow: hidden;
+     object-fit: cover;
+}
+
+.special{
+
+    color:  hsl(75, 94%, 57%);
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    font-size: small;
+    margin-bottom: 30px;
+}
+ p{
+
+    color: hsl(0, 0%, 100%);
+    font-size: small;
+}
+.links a{
+display: block;
+color: hsl(0, 0%, 100%);
+font-size: small;
+line-height: 30px;
+ padding: 12px;
+    margin: 20px 0; 
+     border-radius: 8px;
+    background-color: hsl(0, 0%, 20%);
+     text-decoration: none;
+
+}
+  .links a:hover{
+    background-color: hsl(75, 94%, 57%);
+    color:  hsl(0, 0%, 8%);
+  }
+  .attribution{
+color: hsl(0, 0%, 100%);
+margin-top: 40px;
+
+  }
+  .attribution a{
+    color: hsl(75, 94%, 57%)!important;
+  }
